@@ -1,3 +1,12 @@
-.index h1 {
-  color: rgb(57, 56, 56);
+.index .cream-background {
+  background: #F2EEE6;
+}
+.index .teal-background {
+  background: #4d737d;
+}
+.index .orange-background {
+  background: #e19b66;
+}
+.index .pink-font {
+  color: #f9b09f;
 }/*# sourceMappingURL=main.css.map */

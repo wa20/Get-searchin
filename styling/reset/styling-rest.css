@@ -1,30 +1,33 @@
-/* ------------------- 
-GLOBAL SETTINGS 
-------------------- */
-* {
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+.GlobalReset {
+  /* ------------------- 
+  GLOBAL SETTINGS 
+  ------------------- */
+  /* -------------------
+    LISTS
+  ------------------- */
+  /* ------------------- 
+    LINKS
+  ------------------- */
+}
+.GlobalReset * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
-body {
+.GlobalReset body {
   font-size: 16px;
 }
-
-/* -------------------
-  LISTS
-------------------- */
-ul,
-ol {
+.GlobalReset h1, .GlobalReset h2, .GlobalReset h3, .GlobalReset h4, .GlobalReset h5, .GlobalReset h6 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.GlobalReset ul,
+.GlobalReset ol {
   list-style: none;
 }
-
-/* ------------------- 
-  LINKS
-------------------- */
-a,
-a:hover,
-a:active,
-a:visited {
+.GlobalReset a,
+.GlobalReset a:hover,
+.GlobalReset a:active,
+.GlobalReset a:visited {
   text-decoration: none;
 }/*# sourceMappingURL=styling-rest.css.map */
